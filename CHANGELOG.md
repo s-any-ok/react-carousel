@@ -1,15 +1,15 @@
-- # Github Actions integrated.
-![Release](https://github.com/trendyol/react-carousel/actions/workflows/publish.yml/badge.svg)
+-   # Github Actions integrated.
 
-- # Custom Arrows option added for both `Scrolling Carousel` and `Carousel`
+    ![Release](https://github.com/trendyol/react-carousel/actions/workflows/publish.yml/badge.svg)
+
+-   # Custom Arrows option added for both `Scrolling Carousel` and `Carousel`
+
 ```jsx
-<Carousel
-	leftArrow={<CustomArrow/>}
-	rightArrow={<CustomArrow/>}
-/>
+<Carousel leftArrow={<CustomArrow />} rightArrow={<CustomArrow />} />
 ```
 
-- # Pagination feature added.
+-   # Pagination feature added.
+
 ```jsx
 <Carousel
  dynamic={true}
@@ -22,4 +22,3 @@
  <Item>
 </Carousel>
 ```
-

@@ -16,5 +16,5 @@ export const defaultProps: Required<CarouselProps> = {
 	paginationCallback: null,
 	pageCount: 0,
 	rightArrow: null,
-	leftArrow: null
+	leftArrow: null,
 };

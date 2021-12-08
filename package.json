@@ -1,6 +1,11 @@
 {
 	"name": "@s-any-ok/react-carousel",
 	"version": "1.0.0",
+	"homepage": "https://github.com/s-any-ok/react-carousel",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/s-any-ok/react-carousel"
+	},
 	"description": "Lightweight carousel component for react",
 	"main": "dist/cjs/index.js",
 	"module": "dist/es/index.js",
@@ -14,7 +19,8 @@
 		"lint:fix": "tslint -t verbose -c tslint.json --fix 'src/**/*.{ts,tsx}'",
 		"lint:staged": "pretty-quick --staged && lint-staged",
 		"test": "jest",
-		"security": "npm audit"
+		"security": "npm audit",
+		"prepublish": "yarn build"
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": "npm run fmt"
@@ -73,5 +79,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
