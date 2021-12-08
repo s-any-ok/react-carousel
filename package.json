@@ -1,14 +1,11 @@
 {
-	"name": "@trendyol-js/react-carousel",
-	"version": "2.0.0",
+	"name": "@s-any-ok/react-carousel",
+	"version": "1.0.0",
 	"description": "Lightweight carousel component for react",
 	"main": "dist/cjs/index.js",
 	"module": "dist/es/index.js",
 	"jsnext:main": "dist/es/index.js",
 	"types": "dist/types/index.d.ts",
-	"homepage": "https://trendyol.github.io/react-carousel",
-	"repository": "github:Trendyol/carousel",
-	"bugs": "https://github.com/Trendyol/react-carousel/issues",
 	"scripts": {
 		"build": "rollup -c --environment BUILD:production",
 		"dev": "rollup -c -w --environment BUILD:development",
@@ -32,9 +29,6 @@
 		"carousel",
 		"react",
 		"slider"
-	],
-	"authors": [
-		"Hasan Genc <hasangenc.istanbul@gmail.com> (https://github.com/hasangenc0)"
 	],
 	"license": "MIT",
 	"peerDependencies": {
